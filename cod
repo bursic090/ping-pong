@@ -1,0 +1,9 @@
+import pygame
+import random
+
+pygame.init()
+font1 = pygame.font.SysFont('Arial', 36)  
+
+window = pygame.display.set_mode((700, 500))
+pygame.display.set_caption('Ping Pong')
+background = pygame.transform.scale(pygame.image.load('sky.png'), (700, 500))
